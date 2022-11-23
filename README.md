@@ -23,4 +23,7 @@ airmon-ng check kill
 airmon-ng start wlan0
 
 
+find . type f -ls | grep "NOV"
+
+find . type f -ls | grep "png"
 
