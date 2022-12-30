@@ -100,11 +100,41 @@ ffmpeg -i "input.mp4" -c:a libmp3lame "output.mp3"
 mkdir outputs
 for f in *.mp4; do ffmpeg -i "$f" -c:a libmp3lame "outputs/${f%.mp4}.mp3"; done
 
+merge PDFs
+pdfunite 1.pdf 2.pdf out.pdf
 
 
 
-
-
+sudo apt install boxes
+sudo apt install ntancat
+sudo apt install lolcat
+sudo apt install oneko
+sudo apt install cowsay
+sudo apt install sl
+sudo apt install 2048
+sudo apt install myman
+sudo apt install zangband
+sudo apt install Bastet
+sudo apt install ninvaders
+sudo apt install pacman4console
+sudo apt install nsnake
+sudo apt install greed
+sudo apt install bsdgames
+sudo apt install atc
+sudo apt install backgammon
+sudo apt install moon-buggy
+sudo apt install 2048
+sudo apt install Nudoku
+sudo apt install libncurses5-dev
+sudo apt install libsdl2-dev libsdl2-ttf-dev
+sudo apt install 2048-cli
+sudo apt install greed
+sudo apt install pacman4console
+sudo apt install moon-buggy
+sudo apt install ninvaders
+sudo apt install nethack-console
+sudo apt install teeworlds
+sudo apt install teeworlds-server
 
 
 
